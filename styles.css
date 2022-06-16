@@ -1,0 +1,84 @@
+.carousel-item {
+    height: 100vh;
+    background-color: #777;
+    color: white;
+    text-shadow: .25rem .25rem black;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo-secondary {
+    padding-top: 30vh;
+}
+
+.splash {
+    font-size: 5rem;
+    padding-top: 10vh;
+}
+
+.front-page:hover {
+    opacity: .5;
+}
+
+.bg-color {
+    background-color: #2b2b2b;
+}
+
+.navbar {
+    height: 64px;
+}
+
+.nav-link {
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+.the-box {
+    height: 75vh;
+}
+
+.nav-link:hover {
+    background-color: white;
+    border-radius: 10px;
+    color: #2b2b2b;
+}
+
+#main-nav {
+    position: relative;
+    box-sizing: border-box;
+}
+
+#main-nav {
+    position: sticky;
+    top: 0;
+}
+
+.navbarOffsetMargin {
+    padding-top: 45px;
+}
+
+.intro-the-box {
+    margin-top: 5rem;
+    font-size: 3rem;
+}
+
+.box-description {
+    margin-top: 5rem;
+    font-size: 1.2rem;
+}
+
+.projects {
+    height: 75vh;
+    width: 100vw;
+    background-color: #2b2b2b;
+    background-position: center;
+    background-size: cover;
+}
+
+.title-projects {
+    height: 20rem;
+    color: white;
+    font-size: 3rem;
+    padding: 5rem;
+}

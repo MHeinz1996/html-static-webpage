@@ -1,118 +1,116 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Pied Piper</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet"> -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:100i,200,300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-  <section id="carousel">
-    <div id="start-logo">
-      <img alt="logo" src="images/pied-piper-logo-secondary.png" />
-    </div>
-    <div id="carousel-text">
-      <h1>The Internet We Deserve</h1>
-    </div>
-    <img class="carousel-image" src="images/sv-cover.jpeg" />
-    <img class="carousel-image hidden" src="images/sv-garage.jpg" />
-    <img class="carousel-image hidden" src="images/sv-conference.jpg" />
-    <img class="carousel-image hidden" src="images/sv-pair-programming.jpg" />
-  </section>
-
-  <header>
-    <div id="logo">
-      <img src="images/pied_piper_logo.png" alt="">
-    </div>
-    <nav>
-      <div class="nav-item">
-        <a href="">The Box</a>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pied Piper</title>
+  </head>
+  <body>
+    
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image:url(images/sv-cover.jpeg);">
+          <div class="container">
+          <div class="row justify-content-center logo-secondary">
+              <img class="front-page" src="images/pied-piper-logo-secondary.png">
+            </div>
+            <div class="row justify-content-center">
+              <h1 class="splash">The Internet We Deserve</h1>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image:url(images/sv-garage.jpg);">
+          <div class="container">
+          <div class="row justify-content-center logo-secondary">
+              <img class="front-page" src="images/pied-piper-logo-secondary.png">
+            </div>
+            <div class="row justify-content-center">
+              <h1 class="splash">The Internet We Deserve</h1>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image:url(images/sv-group.jpeg);">
+          <div class="container">
+          <div class="row justify-content-center logo-secondary">
+              <img class="front-page" src="images/pied-piper-logo-secondary.png">
+            </div>
+            <div class="row justify-content-center">
+              <h1 class="splash">The Internet We Deserve</h1>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image:url(images/sv-pair-programming.jpg);">
+          <div class="container">
+          <div class="row justify-content-center logo-secondary">
+              <img class="front-page" src="images/pied-piper-logo-secondary.png">
+            </div>
+            <div class="row justify-content-center">
+              <h1 class="splash">The Internet We Deserve</h1>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="nav-item">
-        <a href="">Projects</a>
-      </div>
-      <div class="nav-item">
-        <a href="">Contact</a>
+    </div>
+
+    <nav id="main-nav" class="navbar navbar-expand-lg bg-color">
+      
+      <a href="#" ><img src="images/pied_piper_logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">The Box</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
       </div>
     </nav>
-  </header>
 
-  <section id='product'>
-    <h2>Introducing The Box</h2>
-    <div class="flex">
-      <p>
-        The Box is a very, very exciting new data backup device that uses Pied Piper’s next-level compression algorithm
+    <div class="container the-box">
+      <div class="row justify-content-center intro-the-box">
+        Introducing The Box
+      </div>
+      <div class="row justify-content-center box-description">The Box is a very, very exciting new data backup device that uses Pied Piper's next-level compression algorithm
         to store duplicate copies of vast quantities of data. It is fun; it is sexy; it is the future of information
         safeguarding hardware. I am tingling just writing about it. So even in the event of a catastrophic system
         failure—caused by hacking, some natural disaster, or what have you—not one kilobyte would be corrupted or lost.
-        So the Box is also peace of mind, whether you’re a large healthcare corporation, a large for-profit prison
+        So the Box is also peace of mind, whether you're a large healthcare corporation, a large for-profit prison
         corporation, or even a large government agency
-      </p>
-      <div id="productmockup">
-        <img src="images/the_box.png" alt="The Box product" />
       </div>
-    </div>
-  </section>
-
-  <section id='portfolio'>
-    <h1>PROJECTS</h1>
-    <div class="wrap">
-      <div class="projects">
-        <h1>Aviatto</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-        <button>DEMO</button>
-      </div>
-      <div class="projects">
-        <h1>Bit Soup</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-        <button>DEMO</button>
-      </div>
-      <div class="projects">
-        <h1>Hooli</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-        <button>DEMO</button>
-      </div>
-      <div class="projects">
-        <h1>Internet Radio by Russ Hanneman</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-        <button>DEMO</button>
-      </div>
-      <div class="projects">
-        <h1>Nucleus</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-        <button>DEMO</button>
-      </div>
-      <div class="projects">
-        <h1>Project Title</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-        <button>DEMO</button>
+      <div class="row justify-content-center">
+        <img src="images/the_box.png">
       </div>
     </div>
 
-  </section>
-  <footer>
-  </footer>
+    <div class="container-fluid projects">
+      <div class="row justify-content-center title-projects">
+        Projects
+      </div>
+    </div>
 
-
-  <script src="index.js" async defer></script>
-</body>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
 </html>
